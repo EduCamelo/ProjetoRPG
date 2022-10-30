@@ -6,6 +6,5 @@ class Personagem1(models.Model):
     idade = models.IntegerField()
     email = models.EmailField(max_length=200)
     classe_Person = models.CharField(max_length=10, choices=classes.choices, default=0)
-    Raca = models.CharField(max_length=10, choices=racas.choices, default=0),
     destino = models.CharField(max_length=10, choices=Destino.choices, default=0)
     

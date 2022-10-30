@@ -7,15 +7,6 @@ class classes(models.TextChoices):
     ARQUEIRO = 'Arqueiro', _('Arqueiro')
     NECROMANTE = 'Necromante', _('Necromante')
 
-
-class racas(models.TextChoices):
-    HUMANO = 'Humano', _('Humano')
-    ALTO_ELFO = 'Alto Elfo', _('Alto Elfo')
-    ANAO = 'Anão', _('Anão')
-    MEIO_DRAGAO = 'Meio Dragão', _('Meio Dragão')
-    MEIO_ELFO = 'Meio Elfo', _('Meio Elfo')
-    ESQUELETO = 'Esqueleto', _('Esqueleto')
-
 class Destino(models.TextChoices):
     GLORIA =  'Glória', _('Glória eterna')
     VINGANCA = 'Vingança', _('Vingança sem fim')

@@ -18,7 +18,6 @@ class Personagem(forms.ModelForm):
         NomeComNumero(nome, 'nome', listaErros)
         NaoTemNumero(idade, 'idade', listaErros)
         Classe (classe_Person, listaErros)
-        raca (Raca, listaErros)
         SemRumo(destino, listaErros)
 
         if listaErros is not None:
